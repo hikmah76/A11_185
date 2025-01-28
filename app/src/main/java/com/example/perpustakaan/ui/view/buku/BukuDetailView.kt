@@ -125,6 +125,7 @@ fun BukuDetailView(
                 .padding(innerPadding)
                 .offset(y = (-70).dp)
         ) {
+            // Menampilkan status detail buku, seperti loading, error, atau sukses
             DetailStatus(
                 bukuUiState = detailViewModel.detailBukuUiState,
                 retryAction = { detailViewModel.getBukuById() },
