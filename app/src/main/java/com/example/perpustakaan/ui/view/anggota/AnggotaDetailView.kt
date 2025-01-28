@@ -118,6 +118,7 @@ fun DetailCardAnggota( // Fungsi untuk menampilkan detail anggota
             modifier = Modifier.padding(16.dp),
             verticalArrangement = Arrangement.spacedBy(8.dp)
         ) {
+            // Menampilkan setiap detail anggota
             ComponentDetailAnggota(judul = "ID Anggota", isinya = anggota.id_anggota.toString())
             ComponentDetailAnggota(judul = "Nama", isinya = anggota.nama)
             ComponentDetailAnggota(judul = "Email", isinya = anggota.email)
