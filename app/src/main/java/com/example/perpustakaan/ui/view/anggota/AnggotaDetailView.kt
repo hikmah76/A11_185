@@ -105,7 +105,7 @@ fun DetailStatusAnggota(
 }
 
 @Composable
-fun DetailCardAnggota(
+fun DetailCardAnggota( // Fungsi untuk menampilkan detail anggota
     anggota: Anggota,
     modifier: Modifier = Modifier
 ) {
