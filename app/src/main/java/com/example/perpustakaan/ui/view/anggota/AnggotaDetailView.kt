@@ -48,7 +48,7 @@ object DestinasiDetailAnggota : DestinasiNavigasi {
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun AnggotaDetailView(
-    navigateBack: () -> Unit,
+    navigateBack: () -> Unit, // Fungsi untuk navigasi kembali
     detailViewModel: DetailAnggotaViewModel = viewModel(factory = PenyediaAnggotaViewModel.Factory)
 ) {
     val scrollBehavior = TopAppBarDefaults.enterAlwaysScrollBehavior()
