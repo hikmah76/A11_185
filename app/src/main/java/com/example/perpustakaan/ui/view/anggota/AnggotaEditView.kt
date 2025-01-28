@@ -44,7 +44,7 @@ fun AnggotaEditView(
     viewModel: EditAnggotaViewModel = viewModel(factory = PenyediaAnggotaViewModel.Factory)
 ) {
     val coroutineScope = rememberCoroutineScope()
-    var showError by remember { mutableStateOf(false) }
+    var showError by remember { mutableStateOf(false) } // State untuk menampilkan pesan error.
 
     Scaffold(
         topBar = {
