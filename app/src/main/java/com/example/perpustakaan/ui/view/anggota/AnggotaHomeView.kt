@@ -94,7 +94,7 @@ fun AnggotaHomeView(
             onDetailClick = onDetailClick,
             onDeleteClick = { anggota -> showDeleteDialog = anggota }
         )
-
+        // Menampilkan dialog konfirmasi hapus
         showDeleteDialog?.let { anggota ->
             AlertDialog(
                 onDismissRequest = { showDeleteDialog = null },
