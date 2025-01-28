@@ -63,6 +63,7 @@ fun AnggotaDetailView(
             )
         }
     ) { innerPadding ->
+        // Menampilkan status detail anggota
         DetailStatusAnggota(
             anggotaUiState = detailViewModel.detailAnggotaUiState,
             retryAction = { detailViewModel.getAnggotaById() },
