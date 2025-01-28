@@ -186,6 +186,7 @@ fun DetailStatus(
         }
 
         is DetailBukuUiState.Error -> {
+            // Jika terjadi error, tampilkan pesan error dan tombol untuk mencoba ulang
             Box(modifier = modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
                 Column(horizontalAlignment = Alignment.CenterHorizontally) {
                     Text(text = "Terjadi kesalahan.")
