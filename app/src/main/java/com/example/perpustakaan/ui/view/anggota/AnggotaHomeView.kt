@@ -61,7 +61,7 @@ fun AnggotaHomeView(
     onDetailClick: (String) -> Unit = {},
     viewModel: HomeAnggotaViewModel = viewModel(factory = PenyediaAnggotaViewModel.Factory)
 ) {
-    var searchQuery by remember { mutableStateOf("") }
+    var searchQuery by remember { mutableStateOf("") } // State untuk menyimpan query pencarian
     var showDeleteDialog by remember { mutableStateOf<Anggota?>(null) }
     val scrollBehavior = TopAppBarDefaults.enterAlwaysScrollBehavior()
 
