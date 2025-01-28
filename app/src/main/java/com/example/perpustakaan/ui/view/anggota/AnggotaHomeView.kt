@@ -85,6 +85,7 @@ fun AnggotaHomeView(
             }
         }
     ) { innerPadding ->
+        // Menampilkan daftar anggota atau status loading/error
         HomeStatusAnggota(
             homeUiState = viewModel.anggotaUIState,
             searchQuery = searchQuery,
