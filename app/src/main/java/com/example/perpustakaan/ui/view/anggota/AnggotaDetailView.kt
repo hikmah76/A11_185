@@ -79,7 +79,7 @@ fun DetailStatusAnggota(
     modifier: Modifier = Modifier,
 ) {
     when (anggotaUiState) {
-        is DetailAnggotaUiState.Success -> {
+        is DetailAnggotaUiState.Success -> { // Jika data berhasil dimuat
             DetailCardAnggota(
                 anggota = anggotaUiState.anggota,
                 modifier = modifier.padding(16.dp)
