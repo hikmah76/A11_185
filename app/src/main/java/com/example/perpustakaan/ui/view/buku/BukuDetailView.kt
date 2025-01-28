@@ -168,6 +168,7 @@ fun DetailStatus(
     onEditClick: () -> Unit, // Tambahkan parameter untuk mengedit buku
     modifier: Modifier = Modifier,
 ) {
+    // Menampilkan UI sesuai dengan status buku yang diterima
     when (bukuUiState) {
         is DetailBukuUiState.Success -> {
             DetailCard(
