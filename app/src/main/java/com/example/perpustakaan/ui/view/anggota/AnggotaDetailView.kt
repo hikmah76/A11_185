@@ -52,7 +52,7 @@ fun AnggotaDetailView(
     detailViewModel: DetailAnggotaViewModel = viewModel(factory = PenyediaAnggotaViewModel.Factory)
 ) {
     val scrollBehavior = TopAppBarDefaults.enterAlwaysScrollBehavior()
-
+    // Struktur tampilan layar dengan Scaffold
     Scaffold(
         topBar = {
             CustomTopAppBar(
