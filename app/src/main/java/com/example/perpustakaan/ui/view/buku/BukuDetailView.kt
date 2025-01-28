@@ -144,7 +144,7 @@ fun BukuDetailView(
         }
     }
 
-    // Dialog konfirmasi hapus
+    // Dialog konfirmasi untuk menghapus buku
     if (showDeleteDialog) {
         ConfirmDeleteDialog(
             onConfirm = {
